@@ -1,0 +1,12 @@
+{% extends 'home.html' %}
+
+{% block content %}
+<h1>{{post.title}}</h1>
+<hr>
+<p>{{post.content}}</p>
+<footer>
+    <h2>{{post.author}}</h2>
+</footer>
+<a href ="{% url 'post_edit' post.pk%}"><p> + Edit post </p>
+    <a href ="{% url 'post_delete' post.pk%}"><p> + Delete post </p>
+{% endblock content %}

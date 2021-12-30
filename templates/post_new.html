@@ -1,0 +1,12 @@
+{% extends 'home.html' %}
+{% block content %}
+<h1>Create your own posts!!</h1>
+
+<form action='' method='post'>
+    {% csrf_token %}
+    {{form.as_p}}
+    <button>Submit</button>
+</form>
+
+
+{% endblock content %}

@@ -43,7 +43,7 @@
                 "sha256:f04e857b59d9d1ccc39ce2da1021d196e47234873820cbeaad210724b1ee28ac",
                 "sha256:fadbfe37f74051d024037f223b8e001611eac868b5c5b06144ef4d8b799862f2"
             ],
-            "markers": "python_version < '3.6'",
+            "markers": "python_version < '3.9'",
             "version": "==0.2.1"
         },
         "django": {
@@ -67,7 +67,7 @@
                 "sha256:0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae",
                 "sha256:48719e356bb8b42991bdbb1e8b83223757b93789c00910a616a071910ca4a64d"
             ],
-            "markers": "python_version >= '3.6'",
+            "markers": "python_version >= '3.5'",
             "version": "==0.4.2"
         },
         "tzdata": {

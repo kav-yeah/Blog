@@ -5,7 +5,7 @@
         },
         "pipfile-spec": 6,
         "requires": {
-            "python_version": "3.7"
+            "python_version": "3.6.8"
         },
         "sources": [
             {
@@ -52,7 +52,7 @@
                 "sha256:d5a8a14da819a8b9237ee4d8c78dfe056ff6e8a7511987be627192225113ee75"
             ],
             "index": "pypi",
-            "version": "==4.0"
+            "version": "==1.4.3"
         },
         "gunicorn": {
             "hashes": [
